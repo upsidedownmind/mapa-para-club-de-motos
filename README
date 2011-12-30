@@ -1,0 +1,25 @@
+Mapa para club de motos
+===========
+
+Es un mini-proyecto en php+redbean+js para agregar una visión geográfica al Club de amigos GMX (http://clubguerrerogmx.freeforums.org/) o para cualquier club que quiera usarlo :)
+
+La interfase es muy simple, trata de un gran mapa usando Google Maps JavaScript API V3 (http://code.google.com/intl/es/apis/maps/documentation/javascript/) donde se pueden ir marcando los distintos usuarios del club, así como también talleres amigos y lugares para visitar.
+
+Lo único que requiere el site es PHP y una base en MySQL. No es necesario correr ningún script ya que RedBean (http://www.redbeanphp.com/) genera las tablas de manera automática.
+
+Instalación
+-----------
+Copiar los archivos del del site y configurar el archivo lib/config.php con los datos para conectarse a MySQL
+
+To Do
+-----
+* Mejorar la estética de las ventanas de información, y las que piden los datos para la creación de los distintos lugares
+* Mejorar el js para no mezclar HTML con la lógica
+* Agregar estadísticas
+* integrar algún tipo de seguridad o validación de identidad para los usuarios
+* colaborar entre todos para mejorarlo :O
+
+Copyright
+---------
+
+Copyright (c) 2011 Upside-Down Mind. See LICENSE for details.
